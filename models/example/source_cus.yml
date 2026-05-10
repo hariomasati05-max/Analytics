@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: macros_shop
+    database: raw
+    schema: jaffle_shop
+    tables:
+      - name: SNO_CUSTOMERS
+      - name: SNO_ORDERED
